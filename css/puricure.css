@@ -1,0 +1,92 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background-color: #fff0f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: deeppink;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+}
+
+th, td {
+    border: 1px solid pink;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+th {
+    background-color: mistyrose;
+    color: #d6336c;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fffafd;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
+
+
+/* 既存のCSSの下に追加してください */
+
+.precure-link {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: linear-gradient(to right, #ffd1dc, #ffe4f4);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+.precure-link p {
+    font-size: 1.2em;
+    color: #ff1493;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.precure-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.precure-link a:hover {
+    background-color: #ff1493;
+}
+
+#sky{width: 270px;
+    height: 165px;
+}
+
+#rezi-na{
+    width: 191px;
+    height: 326px;
+}
+
+#daihuku{
+    width: 205px;
+    height: 260px;
+}

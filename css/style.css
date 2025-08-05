@@ -1,0 +1,22 @@
+img{
+      border-radius: 50%;}
+    h1{color:white;
+      background:#0093D0;
+      text-align:center;}
+    h2{border-left: solid 5px #0093D0;
+      padding-left:10px;}
+    h3{background: #afeeee;
+      text-align: center;
+      }
+      p{text-align: center;}
+      .gakko{font-weight: bold;/*太字に*/
+        text-decoration: none;/*下線消す*/
+        background: skyblue;/*背景を水色に*/
+        color:white;/*文字を白に*/
+        padding:5px 10px;/*内側の余白*/
+        border-radius: 20px;/*角を丸くする*/
+        font-family: 'Avenir','Arial';/*フォントをいい感じに*/}
+      
+
+
+

@@ -1,0 +1,34 @@
+form{
+    width: 800px;
+    margin: auto;
+    background-color: lightblue;
+    box-shadow: 2px 2px gray;
+    border-radius: 1em;
+    padding: 8px 8px;
+}
+legend{
+    color: gray;
+}
+input[type="text"]{
+    background-color: lightgreen;
+    width: 100%;
+    height: 25px;
+}
+#a{
+    position: relative;
+}
+#a i{
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    opacity: 0.3;
+}
+#b i{
+    color: blue;
+}
+input[type="number"]{
+    background-color: bisque;
+}
+input[type="checkbox"]:checked + label {
+    color: red;
+}
