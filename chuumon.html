@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1e08e647c9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/chuumon.css">
+</head>
+<body>
+    <nav style="background-color:#0093D0; padding:10px;">
+            <a href="index.html" style="color:white; margin-right:15px;">プロフィール</a>
+            <a href="puricure.html" style="color:white;">プリキュア</a>
+            <a href="chuumon.html" style="color:white;">注文</a>
+    </nav>
+
+    <form action="">
+        <h1>注文フォーム</h1>
+        <h2>以下の情報を入力してください</h2>
+     
+            <fieldset>
+                <legend>注文者情報</legend>
+                <table>
+                    <tr>
+                        <td><label>名前</label></td>
+                        <td>
+                            <div id="a">
+                                <input type="text">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>電話番号</label></td>
+                        <td>
+                            <div id="a">
+                                <input type="text">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>住所</label></td>
+                        <td>
+                            <div id="a">
+                                <input type="text">
+                                <i class="fa-solid fa-house"></i>                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>メール</label></td>
+                        <td>
+                            <div id="a">
+                                <input type="text">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>性別</label></td>
+                        <td>
+                            <input type="radio" name="s">男
+                            <input type="radio" name="s">女
+                            <input type="radio" name="s">その他
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>希望日</label></td>
+                        <td>
+                            <div id="a">
+                                <input type="date">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>注文内容</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ramen" name="item">
+                            <label for="ramen">バニラウエハース</label>                    
+                        </td>
+                        <td>
+                            <div id="b">
+                                <label>数量</label>
+                                <input type="number">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="susi" name="item">
+                            <label for="susi">ココアウエハース</label>                    
+                        </td>
+                        <td>
+                            <div id="b">
+                                <label>数量</label>
+                                <input type="number">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="onigiri" name="item">
+                            <label for="onigiri">キャラメルウエハース</label>                    
+                        </td>
+                        <td>
+                            <div id="b">
+                                <label>数量</label>
+                                <input type="number">
+                                <i class="fa-solid fa-utensils"></i>                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="tako" name="item">
+                            <label for="tako">その他ウエハース</label>                    
+                        </td>
+                        <td>
+                            <div id="b">
+                                <label>数量</label>
+                                <input type="number">
+                                <i class="fa-solid fa-utensils"></i>                        </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>お支払方法</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>現金</option>
+                                <option>クレジットカード</option>
+                                <option>電子マネー</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>その他</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>ご要望</label>
+                            <textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>証明書ファイル</label>
+                            <input type="file">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+       
+        <button type="submit">提出</button>
+        <input type="reset">
+    </form>
+</body>
+</html>
